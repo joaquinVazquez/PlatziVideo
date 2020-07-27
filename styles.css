@@ -37,7 +37,7 @@ body{
     width: 300px;
     display: flex;
     justify-content: space-around;
-flex-direction: column;   
+    flex-direction: column;   
 }
 .login__container--form{
     display: flex;
@@ -128,4 +128,61 @@ flex-direction: column;
 }
 .footer a:hover{
     text-decoration: underline;
+}
+
+.registro{
+    background: linear-gradient(#21c08b, #AB88FF);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 30px;
+    min-height: calc(100vh - 200px);
+
+}
+.registro__container{
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    /* min-height: 700px; */
+    width: 300px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-direction: column;  
+}
+.registro__container--form{
+    display: flex;
+    flex-direction: column; 
+}
+.iniciar{
+    display: flex;
+    /* align-items: center; */
+    /* align-content: center; */
+    justify-content: center;
+    /* justify-items: center; */
+    margin-top: 60px;
+}
+.iniciar a{
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.iniciar a:hover{
+    text-decoration: underline;
+}
+.button-register{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 20px 10px;
+    width: 100%;
 }
